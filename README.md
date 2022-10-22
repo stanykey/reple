@@ -52,13 +52,13 @@ Hello, World!
 reple automatically detects compilation errors, printing them out for you without trashing
 your REPL state.
 
-```Cpp              
-> int x = ;                                                                                         
+```Cpp
+> int x = ;
 /tmp/repl/repl0.cpp:8:9: error: expected expression
 int x = ;
         ^
 1 error generated.
->                                                                                                   
+>
 ```
 
 ### Multi-Line Statements
@@ -91,7 +91,7 @@ Hello, world! I'm 6/8
 Hello, world! I'm 3/8
 Hello, world! I'm 5/8
 Hello, world! I'm 7/8
-> 
+>
 ```
 
 ## Adding New Languages
