@@ -6,6 +6,7 @@ line of code, reple will add the new code to your program, compile and run the n
 iteration of your program, and then print any new output.  reple currently supports
 C, C++, D, Go, Rust, UPC, MPI, DASH, BCL, Unicon, and Zig.
 
+The initial code was gotten by forking from [Ben Brock's repo](https://github.com/BenBrock/reple)
 
 
 ## Installation
@@ -19,7 +20,7 @@ Hello, World!
 ```
 
 If you install the package locally, you might need to add `~/.local/bin` to your path.
-As well, you will need to have the compilers installed seperately for each language you wish to use.
+As well, you will need to have the compilers installed separately for each language you wish to use.
 
 ## Usage
 To start an interactive REPL session, call `reple` with the title of a configuration
@@ -99,11 +100,3 @@ that describes (1) how to append REPL lines to form a program, (2) how to compil
 run a program, and (3) terminal options, which are things like characters that enclose
 expressions that can span multiple lines (like `{}` in C).  These config files are
 typically only about 20 lines, and you can find examples in `/reple/configs`.
-
-## Issues and Contributions
-We've tested reple on MacOS, FreeBSD, and a few Linux distros.  If you run
-into any issues installing or using reple, please make an issue using our GitHub
-repo.
-
-We welcome contributions in the form of pull requests, particularly if you'd like
-to add support for a new language or runtime system.

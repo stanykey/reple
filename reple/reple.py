@@ -299,5 +299,9 @@ def run_reple(cmd_args):
 
     reple.run()
 
-if __name__ == '__main__':
+
+def main():
     run_reple(sys.argv[1:])
+
+if __name__ == '__main__':
+    main()
