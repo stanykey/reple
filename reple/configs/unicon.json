@@ -1,6 +1,6 @@
 {
     "run": "{bin_fname}",
-    "compile" : "{compiler} {user_cargs} {uflags} -o {bin_fname} {code_fname}",
+    "compile": "{compiler} {user_cargs} {uflags} -o {bin_fname} {code_fname}",
     "compile_args": {
         "compiler": "unicon",
         "code_suffix": ".icn",
@@ -17,6 +17,11 @@
         "lexer_fn": "UniconLexer",
         "lexer_class": "pygments.lexers",
         "prolog_char": "$",
-        "enclosers": [["{", "}"]]
+        "enclosers": [
+            [
+                "{",
+                "}"
+            ]
+        ]
     }
 }

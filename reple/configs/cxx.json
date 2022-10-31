@@ -1,6 +1,6 @@
 {
     "run": "{bin_fname}",
-    "compile" : "{compiler} {cflags} -o {bin_fname} {code_fname}",
+    "compile": "{compiler} {cflags} -o {bin_fname} {code_fname}",
     "compile_args": {
         "compiler": "g++",
         "code_suffix": ".cpp",
@@ -17,6 +17,11 @@
         "lexer_fn": "CppLexer",
         "lexer_class": "pygments.lexers.c_cpp",
         "prolog_char": "$",
-        "enclosers": [["{", "}"]]
+        "enclosers": [
+            [
+                "{",
+                "}"
+            ]
+        ]
     }
 }

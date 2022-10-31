@@ -1,6 +1,6 @@
 {
     "run": "upcxx-run -n 4 {user_rargs} {bin_fname}",
-    "compile" : "{compiler} {cflags} -o {bin_fname} {code_fname} {lflags}",
+    "compile": "{compiler} {cflags} -o {bin_fname} {code_fname} {lflags}",
     "compile_args": {
         "compiler": "g++",
         "code_suffix": ".cpp",
@@ -18,6 +18,11 @@
         "lexer_fn": "CppLexer",
         "lexer_class": "pygments.lexers",
         "prolog_char": "$",
-        "enclosers": [["{", "}"]]
+        "enclosers": [
+            [
+                "{",
+                "}"
+            ]
+        ]
     }
 }

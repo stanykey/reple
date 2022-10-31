@@ -1,6 +1,6 @@
 {
     "run": "mpirun {user_rargs} {bin_fname}",
-    "compile" : "{compiler} {cflags} -o {bin_fname} {code_fname}",
+    "compile": "{compiler} {cflags} -o {bin_fname} {code_fname}",
     "compile_args": {
         "compiler": "mpicc",
         "code_suffix": ".c",
@@ -17,6 +17,11 @@
         "lexer_fn": "CLexer",
         "lexer_class": "pygments.lexers",
         "prolog_char": "$",
-        "enclosers": [["{", "}"]]
+        "enclosers": [
+            [
+                "{",
+                "}"
+            ]
+        ]
     }
 }

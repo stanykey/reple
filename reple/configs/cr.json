@@ -1,6 +1,6 @@
 {
     "run": "{bin_fname}",
-    "compile" : "{compiler} {crflags} {user_cargs} -o {bin_fname} {code_fname}",
+    "compile": "{compiler} {crflags} {user_cargs} -o {bin_fname} {code_fname}",
     "compile_args": {
         "compiler": "crystal build",
         "crflags": "--no-debug",
@@ -16,6 +16,11 @@
         "lexer_fn": "CrystalLexer",
         "lexer_class": "pygments.lexers",
         "prolog_char": "$",
-        "enclosers": [["do", "end"]]
+        "enclosers": [
+            [
+                "do",
+                "end"
+            ]
+        ]
     }
 }

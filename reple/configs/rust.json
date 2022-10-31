@@ -1,6 +1,6 @@
 {
     "run": "{bin_fname}",
-    "compile" : "{compiler} {user_cargs} {cflags} -o {bin_fname} {code_fname}",
+    "compile": "{compiler} {user_cargs} {cflags} -o {bin_fname} {code_fname}",
     "compile_args": {
         "compiler": "rustc",
         "code_suffix": ".rs",
@@ -17,6 +17,11 @@
         "lexer_fn": "RustLexer",
         "lexer_class": "pygments.lexers",
         "prolog_char": "$",
-        "enclosers": [["{", "}"]]
+        "enclosers": [
+            [
+                "{",
+                "}"
+            ]
+        ]
     }
 }

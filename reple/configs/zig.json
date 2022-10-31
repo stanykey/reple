@@ -16,6 +16,11 @@
         "lexer_fn": "ZigLexer",
         "lexer_class": "pygments.lexers",
         "prolog_char": "$",
-        "enclosers": [[ "{", "}" ]]
+        "enclosers": [
+            [
+                "{",
+                "}"
+            ]
+        ]
     }
 }

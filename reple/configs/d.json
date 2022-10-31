@@ -1,6 +1,6 @@
 {
     "run": "{bin_fname}",
-    "compile" : "{compiler} {dflags} -of={bin_fname} {code_fname}",
+    "compile": "{compiler} {dflags} -of={bin_fname} {code_fname}",
     "compile_args": {
         "compiler": "dmd",
         "code_suffix": ".d",
@@ -17,6 +17,11 @@
         "lexer_fn": "DLexer",
         "lexer_class": "pygments.lexers.d",
         "prolog_char": "$",
-        "enclosers": [["{", "}"]]
+        "enclosers": [
+            [
+                "{",
+                "}"
+            ]
+        ]
     }
 }

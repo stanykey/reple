@@ -1,7 +1,7 @@
 {
     "run": "{bin_fname}",
-    "compile" : "{compiler} -f elf64 {code_fname} {cflags} -o {code_fname}\\.o && {linker} -o {bin_fname} {code_fname}\\.o",
-    "compile_args" : {
+    "compile": "{compiler} -f elf64 {code_fname} {cflags} -o {code_fname}\\.o && {linker} -o {bin_fname} {code_fname}\\.o",
+    "compile_args": {
         "compiler": "nasm",
         "cflags": "-w -O3",
         "linker": "ld",

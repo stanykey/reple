@@ -1,6 +1,6 @@
 {
     "run": "{bin_fname}",
-    "compile" : "{compiler} {user_cargs} -o {bin_fname} {code_fname}",
+    "compile": "{compiler} {user_cargs} -o {bin_fname} {code_fname}",
     "compile_args": {
         "compiler": "go build",
         "code_suffix": ".go"
@@ -16,6 +16,11 @@
         "lexer_fn": "GoLexer",
         "lexer_class": "pygments.lexers",
         "prolog_char": "$",
-        "enclosers": [["{", "}"]]
+        "enclosers": [
+            [
+                "{",
+                "}"
+            ]
+        ]
     }
 }
